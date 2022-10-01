@@ -1,0 +1,7 @@
+---
+- hosts: backup
+  tasks:
+    - name: Run backups
+      include_role:
+        name: "ten7.gitea_backup"
+

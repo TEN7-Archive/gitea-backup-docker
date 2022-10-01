@@ -1,0 +1,9 @@
+---
+backup:
+  hosts:
+    backup.localhost:
+      ansible_host: localhost
+  vars:
+    ansible_connection: local
+    ansible_python_interpreter: /usr/bin/python3
+
