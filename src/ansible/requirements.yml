@@ -3,7 +3,7 @@ roles:
   - src: ten7.flightdeck_base
     version: 5.1.3
   - src: ten7.gitea_backup
-    version: 2.0.1
+    version: 2.0.2
 collections:
   - name: cloud.common
   - name: community.kubernetes
